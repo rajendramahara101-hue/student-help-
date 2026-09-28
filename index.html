@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Help</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6ff;
+      color: #222;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 35px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background: #111827;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 15px;
+    }
+
+    .welcome {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px #ccc;
+    }
+
+    .subjects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px #ccc;
+    }
+
+    .card h2 {
+      color: #2563eb;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 Student Help</h1>
+    <p>विद्यार्थीहरूको पढाइमा सहयोग गर्ने वेबसाइट</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="home" class="welcome">
+      <h2>Welcome to Student Help 👋</h2>
+      <p>
+        यहाँ विद्यार्थीहरूले विभिन्न विषयका Notes,
+        Questions र Study Materials पाउन सक्छन्।
+      </p>
+    </section>
+
+    <section id="subjects">
+      <h2 style="text-align:center;">📖 Subjects</h2>
+
+      <div class="subjects">
+
+        <div class="card">
+          <h2>📐 Mathematics</h2>
+          <p>Math notes, formulas र important questions.</p>
+          <a class="btn" href="#">View</a>
+        </div>
+
+        <div class="card">
+          <h2>🔬 Science</h2>
+          <p>Science notes र important questions.</p>
+          <a class="btn" href="#">View</a>
+        </div>
+
+        <div class="card">
+          <h2>🌍 Social</h2>
+          <p>Social Studies notes र questions.</p>
+          <a class="btn" href="#">View</a>
+        </div>
+
+        <div class="card">
+          <h2>💻 Computer</h2>
+          <p>Computer notes र basic programming help.</p>
+          <a class="btn" href="#">View</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="welcome" style="margin-top:30px;">
+      <h2>About Student Help</h2>
+      <p>
+        Student Help विद्यार्थीहरूका लागि बनाइएको
+        एउटा सरल educational website हो।
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Student Help | Made for Students ❤️</p>
+  </footer>
+
+</body>
+</html>
